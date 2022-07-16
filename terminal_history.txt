@@ -1,0 +1,11 @@
+
+  452  git clone git@github.com:jamestan8292/Financial_Planners.git
+  453  cd Financial_Planners
+  454  ls
+  455  git status
+  456  git add MCForecastTools.py
+  457  git add financial_planning_tools.ipynb
+  458  git add modified:   .gitignore
+  459  git add .gitignore
+  460  git commit -m "Initial Commit"
+  461  git push
