@@ -10,13 +10,13 @@ This application has prototypes of two financial planning tools for credit union
 
 ## Technologies
 
-This application is written for use with Jupyter Lab and it uses the following packages:
+This application is written for use with Jupyter Lab. It uses the following packages/modules:
 
 * [Pandas](https://github.com/pandas-dev/pandas)
 * requests
 * json
 * alpaca_trade_api
-* dotenv
+* python-dotenv
 * datetime
 * MCForecastTools - provided in this repository
 
@@ -29,6 +29,7 @@ In Windows GitBash or Mac Terminal app, enter "Jupyter Lab". Then open and run "
 https://alpaca.markets, and the API keys obtained. The two API keys, ALPACA_API_KEY and ALPACA_SECRET KEY must be stored in a .env text file in the same directory as the application, in the following format:
 
 ALPACA_API_KEY = "123456..."
+
 ALPACA_SECRET KEY = "98765...."
 
 ---
